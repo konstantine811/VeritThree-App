@@ -1,5 +1,16 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <ThreeGame />
   </div>
 </template>
+
+<script>
+import ThreeGame from "@/components/ThreeGame.vue";
+
+export default {
+  name: "Home",
+  components: {
+    ThreeGame,
+  },
+};
+</script>
